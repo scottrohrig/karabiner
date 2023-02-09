@@ -1275,7 +1275,11 @@
         }, {  "description": "b = ctrl-b", "type": "basic",
           "from": { "key_code": "b",
             "modifiers": { "mandatory": [ "right_command", "right_control", "right_shift", "right_option" ] } },
-          "to": [ { "key_code": "b", "modifiers": [ "left_control" ] } ] } ]
+          "to": [ { "key_code": "b", "modifiers": [ "left_control" ] } ] 
+        }, {  "description": "a = ctrl-a", "type": "basic",
+          "from": { "key_code": "a",
+            "modifiers": { "mandatory": [ "right_command", "right_control", "right_shift", "right_option" ] } },
+          "to": [ { "key_code": "a", "modifiers": [ "left_control" ] } ] } ]
     }, {  "description": "Hyper Clipboard",
       "manipulators": [ 
         {  "description": "command + 1 = copy to clip1", "type": "basic",
