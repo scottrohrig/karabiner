@@ -2584,7 +2584,7 @@
             }
           },
           "to" : [ {
-            "shell_command" : "open -a Outlook"
+            "shell_command" : "open -a 'Microsoft Outlook'"
           } ],
           "type" : "basic"
         }, { "description" : "e = firefox",

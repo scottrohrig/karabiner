@@ -4564,7 +4564,7 @@
     },
     {  "description": "Hyper Application",
       "manipulators": [
-        {  "description": "command + e = finder",
+        {  "description": "command + e = finder TODO",
           "type": "basic",
           "from": {
             "key_code": "e",
@@ -4600,7 +4600,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Outlook"
+              "shell_command": "open -a 'Microsoft Outlook'"
             }
           ]
         },
@@ -4623,7 +4623,7 @@
             }
           ]
         },
-        {  "description": "command + r = preview",
+        {  "description": "command + r = preview TODO",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4643,7 +4643,7 @@
             }
           ]
         },
-        {  "description": "option + r = terminal",
+        {  "description": "option + r = terminal TODO (add shft+r) alacritty",
           "type": "basic",
           "from": {
             "key_code": "r",
@@ -4682,7 +4682,7 @@
             }
           ]
         },
-        {  "description": "command + t = typora",
+        {  "description": "command + t = obsidian",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4698,7 +4698,7 @@
           },
           "to": [
             {
-              "shell_command": "open -a Typora"
+              "shell_command": "open -a obsidian"
             }
           ]
         },
@@ -4722,7 +4722,7 @@
             }
           ]
         },
-        {  "description": "t = iTerm2",
+        {  "description": "t = vscode",
           "type": "basic",
           "from": {
             "key_code": "t",
@@ -4761,7 +4761,7 @@
             }
           ]
         },
-        {  "description": "option + y = amphetamine",
+        {  "description": "option + y = amphetamine TODO (discord?)",
           "type": "basic",
           "from": {
             "key_code": "y",
@@ -4800,7 +4800,7 @@
             }
           ]
         },
-        {  "description": "command + f = Dash",
+        {  "description": "command + f = Dash TODO",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -4820,7 +4820,7 @@
             }
           ]
         },
-        {  "description": "option + f = Dictionary",
+        {  "description": "option + f = Dictionary TODO",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -4840,7 +4840,7 @@
             }
           ]
         },
-        {  "description": "f = Firefox",
+        {  "description": "f = Firefox TODO (swap e and f) currently both are Firefox",
           "type": "basic",
           "from": {
             "key_code": "f",
@@ -4859,7 +4859,7 @@
             }
           ]
         },
-        {  "description": "command + g = Chrome",
+        {  "description": "command + g = Chrome TODO (not always using chrome, so maybe it's good to be behind multiple keys)",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -4879,7 +4879,7 @@
             }
           ]
         },
-        {  "description": "option + g = Calender",
+        {  "description": "option + g = Calender TODO (Brave?)",
           "type": "basic",
           "from": {
             "key_code": "g",
@@ -4899,7 +4899,7 @@
             }
           ]
         },
-        {  "description": "g = Intellij IDEA",
+        {  "description": "g = Intellij IDEA TODO (Chrome? or another app)",
           "type": "basic",
           "from": {
             "key_code": "g",
