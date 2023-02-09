@@ -1,0 +1,73 @@
+{
+  "title": "Spacebar as Shift",
+  "rules": [
+    {
+        "description": "Change spacebar to left_shift. (Post spacebar if pressed alone)",
+        "manipulators": [
+            {
+                "from": {
+                    "key_code": "spacebar",
+                    "modifiers": {
+                        "optional": [
+                            "any"
+                        ]
+                    }
+                },
+                "to": [
+                    {
+                        "key_code": "left_shift"
+                    }
+                ],
+                "to_if_alone": [
+                    {
+                        "key_code": "spacebar"
+                    }
+                ],
+                "type": "basic"
+            }
+        ]
+    },
+    {
+      "description":"f-motion layer",
+      "manipulators": [
+        {
+          "type":"basic",
+          "from": {
+            "simultaneous": [
+              {
+                "key_code":"f"
+              },
+              {
+                "key_code":"h"
+              }
+            ]
+          },
+          "to":[
+            {"key_code": "left_arrow"}
+          ]
+        }
+      ]
+    },
+    {
+      "description":"f-motion layer",
+      "manipulators": [
+        {
+          "type":"basic",
+          "from": {
+            "key_code":"spacebar",
+            "modifiers": [
+              {"key_code": "any"}
+            ]
+          },
+          "to_if_alone":[
+            {"key_code": "left_arrow"}
+          ],
+          "to_if_held_down":[
+            {"key_code": "left_arrow"}
+          ]
+        }
+      ]
+    }
+]
+
+}
