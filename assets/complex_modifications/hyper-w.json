@@ -1,0 +1,56 @@
+{
+    "title": "Caps Lock as Hyper Key with Window Switching (using custom Hyper key)",
+    "rules": [
+        {
+            "description": "Map Left Control + Left Option + Left Shift + Right Shift to Hyper",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "left_control",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_control",
+                                "left_option",
+                                "left_shift",
+                                "right_shift"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_control",
+                            "modifiers": [
+                                "left_option",
+                                "left_shift",
+                                "right_shift"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": "Window Switching with Hyper + W",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "w",
+                        "modifiers": {
+                            "mandatory": [
+                                "hyper"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "shell_command": "osascript -e 'tell application \"System Events\" to keystroke (key code 48 using {command down})'"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
+

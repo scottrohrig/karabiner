@@ -2,8 +2,8 @@
   "global" : {
     "ask_for_confirmation_before_quitting" : true,
     "check_for_updates_on_startup" : true,
-    "show_in_menu_bar" : false,
-    "show_profile_name_in_menu_bar" : true,
+    "show_in_menu_bar" : true,
+    "show_profile_name_in_menu_bar" : false,
     "unsafe_ui" : false
   },
   "profiles" : [ {
@@ -2947,18 +2947,6 @@
           } ],
           "type" : "basic"
         }, {
-          "description" : "shift + f = Arc",
-          "from" : {
-            "key_code" : "f",
-            "modifiers" : {
-              "mandatory" : [ "left_shift", "right_command", "right_control", "right_shift", "right_option" ]
-            }
-          },
-          "to" : [ {
-            "shell_command" : "open -a Arc"
-          } ],
-          "type" : "basic"
-        }, {
           "description" : "option + f = Dictionary",
           "from" : {
             "key_code" : "f",
@@ -4034,7 +4022,7 @@
         "consumer_key_code" : "volume_increment"
       } ]
     } ],
-    "name" : "capcom",
+    "name" : "caps cmdr",
     "parameters" : {
       "delay_milliseconds_before_open_device" : 1000
     },

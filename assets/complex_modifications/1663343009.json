@@ -1123,6 +1123,10 @@
           "from": { "key_code": "a",
             "modifiers": { "mandatory": [ "left_command", "right_command", "right_control", "right_shift", "right_option" ] } },
           "to": [ { "key_code": "up_arrow", "modifiers": [ "left_control" ] } ]
+        }, {  "description": "shift + a = local tmux prefix", "type": "basic",
+          "from": { "key_code": "a",
+            "modifiers": { "mandatory": [ "left_shift", "right_command", "right_control", "right_shift", "right_option" ] } },
+          "to": [ { "key_code": "b", "modifiers": [ "left_control" ] } ] 
         }, {  "description": "control + s = alter app-win rev", "type": "basic",
           "from": { "key_code": "s",
             "modifiers": { "mandatory": [ "left_control", "right_command", "right_control", "right_shift", "right_option" ] } },
@@ -1172,9 +1176,9 @@
             "modifiers": { "mandatory": [ "right_command", "right_control", "right_shift", "right_option" ] } },
           "to": [ { "shell_command": "open -a iTerm"
             } ]
-        }, {  "description": "command + t = obsidian", "type": "basic",
+        }, {  "description": "shift + t = obsidian", "type": "basic",
           "from": { "key_code": "t",
-            "modifiers": { "mandatory": [ "left_command", "right_command", "right_control", "right_shift", "right_option" ] } },
+            "modifiers": { "mandatory": [ "left_shift", "right_command", "right_control", "right_shift", "right_option" ] } },
           "to": [ { "shell_command": "open -a obsidian"
             } ]
         }, {  "description": "option + t = notes", "type": "basic",
