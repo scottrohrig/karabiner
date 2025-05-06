@@ -51,7 +51,7 @@
                                 "to": [
                                     {
                                         "key_code": "spacebar",
-                                        "modifiers": ["left_option"]
+                                        "modifiers": ["left_control"]
                                     }
                                 ],
                                 "type": "basic"
