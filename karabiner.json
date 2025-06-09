@@ -3427,6 +3427,23 @@
                         "vendor_id": 7504
                     },
                     "ignore": false
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 6505,
+                        "vendor_id": 12951
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "left_command" },
+                            "to": [{ "key_code": "left_command" }]
+                        },
+                        {
+                            "from": { "key_code": "left_shift" },
+                            "to": [{ "key_code": "left_shift" }]
+                        }
+                    ]
                 }
             ],
             "name": "capcom",
