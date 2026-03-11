@@ -1,0 +1,116 @@
+{
+  "title": "Caps Lock as Hyper Key (Shift + Key)",
+  "rules": [
+    {
+      "description": "Hyper Navigation - Shift for Select",
+      "manipulators": [
+
+        {
+          "description": "shift + h = select left",
+          "from": {
+            "key_code": "h",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "shift + k = select down",
+          "from": {
+            "key_code": "k",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "shift + l = select right",
+          "from": {
+            "key_code": "l",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "shift + u = select page up",
+          "from": {
+            "key_code": "u",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "page_up",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "shift + i = Select Home",
+          "from": {
+            "key_code": "i",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "home",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "shift + o = Select End",
+          "from": {
+            "key_code": "o",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "end",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        },
+
+        {
+          "description": "shift + p = Select page down",
+          "from": {
+            "key_code": "p",
+            "modifiers": { "mandatory": ["left_shift", "right_command", "right_control", "right_shift", "right_option"] }
+          },
+          "to": [
+            {
+              "key_code": "page_down",
+              "modifiers": ["left_shift"]
+            }
+          ],
+          "type": "basic"
+        }
+
+      ]
+    }
+  ]
+}

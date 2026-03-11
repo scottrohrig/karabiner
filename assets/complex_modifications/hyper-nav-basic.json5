@@ -1,0 +1,85 @@
+{
+  "title": "Caps Lock as Hyper Key + HJKL UIOP",
+  "rules": [
+  // may not function in karabiner without the other elements
+  // this file is a wip to clean up the organization and just have the basic hjkl nav commands
+  {
+    "description": "Hyper Navigation Basic HJKL",
+    "manipulators": [
+      {
+        "description": " h = left",
+        "from": {
+          "key_code": "h",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "left_arrow" }],
+        "type": "basic"
+      },
+      {
+        "description": " j = down",
+        "from": {
+          "key_code": "j",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "down_arrow" }],
+        "type": "basic"
+      },
+      {
+        "description": " k = up",
+        "from": {
+          "key_code": "k",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "up_arrow" }],
+        "type": "basic"
+      },
+      {
+        "description": " l = right",
+        "from": {
+          "key_code": "l",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "right_arrow" }],
+        "type": "basic"
+      },
+      {
+      // TODO: make u = ctrl + u 
+      "description": " u = page_up",
+      "from": {
+        "key_code": "u",
+        "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+      },
+      "to": [{ "key_code": "page_up" }],
+      "type": "basic"
+      },
+      {
+        "description": " i = home",
+        "from": {
+          "key_code": "i",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "home" }],
+        "type": "basic"
+      },
+      {
+        "description": " o = end",
+        "from": {
+          "key_code": "o",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "end" }],
+        "type": "basic"
+      },
+      {
+        "description": " p = page_down",
+        "from": {
+          "key_code": "p",
+          "modifiers": { "mandatory": ["right_command", "right_control", "right_shift", "right_option"] }
+        },
+        "to": [{ "key_code": "page_down" }],
+        "type": "basic"
+      }
+    ]
+  }
+  ]
+}

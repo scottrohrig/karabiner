@@ -4447,7 +4447,6 @@
                 }
             ],
             "name": "capcom",
-            "selected": true,
             "simple_modifications": [
                 {
                     "from": { "key_code": "left_command" },
@@ -5310,6 +5309,7 @@
                 }
             ],
             "name": "Default",
+            "selected": true,
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
         },
         {
